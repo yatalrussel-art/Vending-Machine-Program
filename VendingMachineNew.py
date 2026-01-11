@@ -13,7 +13,7 @@ items = [
 
 # Function to display Available Items
 def display_items():
-    print("\n--- Vending Machine Menu ---")
+    print("\n----   Vending Machine Menu ----")
     print("Code | Item Name      | Price | Stock")
     print("-----|----------------|-------|------")
     for item in items:
@@ -104,7 +104,7 @@ def vending_machine():
         else:
             if current_balance > 0:
                 print(f"\nReturning remaining change: **${current_balance:.2f}**")
-            print("Thank you for using the vending machine!")
+            print("Thank you, have a Nice Day!")
             break
 
 if __name__ == "__main__":
